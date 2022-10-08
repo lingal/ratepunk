@@ -1,0 +1,42 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Noto+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap");
+
+@font-face {
+  font-family: "Gadugi";
+  src: url("../assets/fonts/Gadugi-Font-Family/gadugi-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+// html {
+//   font-size: 100%;
+// }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1rem;
+  min-height: 100vh;
+  color: var(--clr-1);
+  font-family: 'Noto Sans', sans-serif;
+  // line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
