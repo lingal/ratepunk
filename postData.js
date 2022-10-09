@@ -6,12 +6,27 @@ const submitBtn = document.getElementById('submit-btn');
 const copyBtn = document.getElementById('copy-btn-lg');
 const copyBtnSm = document.getElementById('copy-btn-sm');
 
-console.log(copyBtnSm);
-
 emailInput.value = '';
 
 let data = {
   email: ''
+};
+
+copyBtn.addEventListener('click', () => {
+  reset();
+});
+
+copyBtnSm.addEventListener('click', () => {
+  reset();
+});
+
+const reset = () => {
+  emailInput.value = '';
+  submitBtn.style.display = 'block';
+  copyBtn.style.display = 'none';
+  copyBtnSm.style.display = 'none';
+  emailError.style.display = 'none';
+  emailSuccess.style.display = 'none';
 };
 
 const checkEmail = () => {
