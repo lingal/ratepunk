@@ -2,17 +2,23 @@
 //font-family: 'Noto Sans', sans-serif;
 //font-family: 'Roboto', sans-serif;
 
-
-
-
 :root {
   --clr-1: #1f333d;
-  --clr-2: #434A54;
-  --clr-3: #1F343E;
-  --clr-4: #4EB3E3;
-  --clr-5: #F8F4F9;
-  --clr-6: #6D7A80;
-  --clr-7: #ED6F82;
-  --clr-8: #45565E;
-  --clr-9: #ffffff;
+  --clr-2: #434a54;
+  --clr-3: #1f343e;
+  --clr-4: #4eb3e3;
+  --clr-5: #f8f4f9;
+  --clr-6: #6d7a80;
+  --clr-8: #45565e;
+  --clr-base: #f8cc5d;
+  --clr-warning: #ed6f82;
+  --clr-white: #ffffff;
+
+  //font weight:
+
+  --border: solid 1px var(--clr-3);
+  --fw-light: 400;
+  --fw-regular: 500;
+  --fw-bold: 700;
 }
+

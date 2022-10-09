@@ -3,14 +3,10 @@
 
 @font-face {
   font-family: "Gadugi";
-  src: url("../assets/fonts/Gadugi-Font-Family/gadugi-bold.ttf") format("truetype");
+  src: url("/assets/fonts/Gadugi-Font-Family/gadugi-bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
-
-// html {
-//   font-size: 100%;
-// }
 
 * {
   box-sizing: border-box;
@@ -21,9 +17,9 @@
 body {
   font-size: 1rem;
   min-height: 100vh;
-  color: var(--clr-1);
-  font-family: 'Noto Sans', sans-serif;
-  // line-height: 1.5;
+  color: var(--clr-3);
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5rem;
 }
 
 ul {
@@ -35,8 +31,26 @@ a {
 
 h1 {
   margin: 0;
+  line-height: 3rem;
 }
+
+input {
+  line-height: 1.25rem;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
 img {
   display: block;
   max-width: 100%;
+}
+
+
+//Global class
+
+.active {
+  color: var(--clr-4) !important;
 }
